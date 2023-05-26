@@ -1,1 +1,32 @@
-<p>myday-home works!</p>
+<div class="container-fluid bg-light">
+    <div class="row head-title">
+        <div class="col-9">
+            <h1>My Day</h1>
+            <p>Thursday, May 26</p>
+        </div>
+        <div class="col">
+            <div class="btn-group">
+                <button class="btn btn-outline-none">Sort</button>
+                <button class="btn btn-outline-none">Group</button>
+                <button class="btn btn-outline-none">Suggestion</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="task-box rounded mx-2">
+                <form>
+                    <input class="form-control form-control-plaintext px-3" type="text" placeholder="Add a task">
+                </form>
+            </div>
+            <div class="task-box rounded mx-2 options">
+                <div class="btn-group">
+                    <button class="btn btn-outline-none"><fa-icon [icon]="faCallendar"></fa-icon></button>
+                    <button class="btn btn-outline-none"><fa-icon [icon]="faBell"></fa-icon></button>
+                    <button class="btn btn-outline-none"><fa-icon [icon]="faRepeat"></fa-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

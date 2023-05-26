@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBell, faCalendarDays, faRepeat } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-myday-home',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./myday-home.component.scss']
 })
 export class MydayHomeComponent {
-
+  faBell = faBell;
+  faCallendar = faCalendarDays;
+  faRepeat = faRepeat;
 }

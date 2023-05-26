@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { MydayRoutingModule } from './myday-routing.module';
 import { MydayHomeComponent } from './myday-home/myday-home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 @NgModule({
@@ -11,7 +13,8 @@ import { MydayHomeComponent } from './myday-home/myday-home.component';
   ],
   imports: [
     CommonModule,
-    MydayRoutingModule
+    MydayRoutingModule,
+    FontAwesomeModule
   ]
 })
 export class MydayModule { }

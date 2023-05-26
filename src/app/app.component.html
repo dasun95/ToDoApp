@@ -1,56 +1,23 @@
 <div class="container-fluid">
-  <div class="header">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">ToW-DoW</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <form class="form-inline mx-auto">
-          <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-          <button class="btn-secondary rounded-2 border-0">Search</button>
-        </form>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-cog"></i> Settings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-question"></i> Help</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-bell"></i> Notifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="../assets/profile.png" class="rounded-circle" alt="User Image"
-                width="30" height="30"> </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-  </div>
   <div class="row">
     <div class="col-3">
 
-      <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div id="sidebarMenu">
         <div class="position-sticky">
           <div class="list-group list-group-flush mx-3 mt-4">
-            <a class="list-group-item list-group-item-action py-2 ripple" routerLink="/myday"
-              routerLinkActive="active">My
+            <a class="list-group-item list-group-item-action py-2" routerLink="/myday" routerLinkActive="active">My
               Day</a>
-            <a class="list-group-item list-group-item-action py-2 ripple" routerLink="/important"
+            <a class="list-group-item list-group-item-action py-2" routerLink="/important"
               routerLinkActive="active">Important</a>
-            <a class="list-group-item list-group-item-action py-2 ripple" routerLink="/planned"
+            <a class="list-group-item list-group-item-action py-2" routerLink="/planned"
               routerLinkActive="active">Planned</a>
-            <a class="list-group-item list-group-item-action py-2 ripple" routerLink="/assigned"
+            <a class="list-group-item list-group-item-action py-2" routerLink="/assigned"
               routerLinkActive="active">Assigned to me</a>
-            <a class="list-group-item list-group-item-action py-2 ripple" routerLink="/tasks"
+            <a class="list-group-item list-group-item-action py-2" routerLink="/tasks"
               routerLinkActive="active">Tasks</a>
           </div>
         </div>
-      </nav>
+      </div>
 
     </div>
     <div class="col-9">

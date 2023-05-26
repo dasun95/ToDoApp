@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities; /* You can add global styles to this file, and also import other style files */
+
+.container-fluid {
+    height: 100vh;
+}
+
+.task-box {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    // padding: 8px 16px;
+}
+
+.options {
+    background-color: rgb(184, 236, 236);
+}
